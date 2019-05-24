@@ -8,4 +8,7 @@ body{
     font-size:100px;
     margin-left: 200px;
 }
-    
+#nav li{
+    padding:80px;
+    display:table-column;
+}

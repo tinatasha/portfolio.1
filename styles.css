@@ -1,14 +1,21 @@
-body{
-    background-image: url(giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #heading p{
-    color:grey;
-    font-size:100px;
-    margin-left: 200px;
+    color:black;
+    font-size:70px;
+    margin-left: 2px;
+    text-align:center;
+    margin-top:30px;
 }
-#nav li{
-    padding:80px;
-    display:table-column;
-}
+ nav{
+     color:black;
+     font-size:40px;
+     display:flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+     background-color:black;
+ }
+ nav li>a:hover{
+      color:grey;
+     font-size:70px;
+     background-image: url("pexels-photo-1181325.jpeg")
+ }
+ 

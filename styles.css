@@ -1,5 +1,5 @@
 #one{
-    background-image: url("images.jpeg");
+    background-image: url("giphy.gif");
     background-position: 100%;
     background-attachment: fixed;
     backface-visibility: hidden;
@@ -8,6 +8,7 @@
 
 }
 #two{
+    text-align: center;
     color:grey;
     font-size:100px;
     margin-top:40%;

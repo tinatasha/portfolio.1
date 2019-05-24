@@ -1,16 +1,11 @@
-#one{
-    background-image: url("giphy.gif");
-    background-position: 100%;
-    background-attachment: fixed;
-    backface-visibility: hidden;
+body{
+    background-image: url(giphy.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
-
+    background-size: cover;
 }
-#two{
-    text-align: center;
+#heading p{
     color:grey;
     font-size:100px;
-    margin-top:40%;
-
+    margin-left: 200px;
 }
+    

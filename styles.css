@@ -1,11 +1,10 @@
 #heading p{
-    margin-top: 900px;
-    margin-right: 900px;
-    margin-left: 900px;
-    margin-bottom: 900px;
+  font-size: 50px;
 }
 body{
-    background-image: url("pexels-photo-1815484.jpeg");   
+    background-image: url("pexels-photo-1815484.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  nav{
      color:black;
@@ -13,11 +12,14 @@ body{
      display:flex;
      flex-direction:row;
      justify-content: space-evenly;
-     background-color:black;
+     background-color:grey;
+     text-decoration-style: none;
+ }
+ nav li>a{
+     color:black;
  }
  nav li>a:hover{
       color:grey;
      font-size:70px;
-     background-image: url("pexels-photo-1181325.jpeg")
  }
  

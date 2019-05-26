@@ -48,8 +48,19 @@ li{
         padding:10px;
     }
     nav li>a:hover{
+        border: 2px slategrey;
         font-style: oblique;
         font-family: 'Shojumaru', cursive;
         font-stretch: ultra-expanded;
         text-decoration-style: wavy;
     }
+    #icons{
+        padding:40px;
+        display:flex;
+        justify-content: space-between;
+
+    }
+    #icons a>img{
+        border:1px solid grey;
+    }
+    

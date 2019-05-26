@@ -81,7 +81,11 @@ li{
         width: 200px;    
         height:200px;
     }
+    #brito{
+        float:left;
+    }
     #lap{
-        margin-bottom:400px;
-        float:right;
+        display:flex;
+        justify-content: space-around;
+        margin-top:100px;
     }

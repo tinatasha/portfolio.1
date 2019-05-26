@@ -55,12 +55,33 @@ li{
         text-decoration-style: wavy;
     }
     #icons{
-        padding:40px;
+        padding:50px;
         display:flex;
-        justify-content: space-between;
 
     }
     #icons a>img{
-        border:1px solid grey;
+     border:1px solid grey;
     }
-    
+    #info{
+        margin-left:580px;
+    }
+    #no{
+        margin-left:580px;  
+    }
+    #name{
+       border: 2px solid grey;
+       width: 200px;
+    }
+    #email{
+        border: 2px solid grey;
+        width: 200px;     
+    }
+    #message{
+        border: 2px solid grey;
+        width: 200px;    
+        height:200px;
+    }
+    #lap{
+        margin-bottom:400px;
+        float:right;
+    }

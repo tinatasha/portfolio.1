@@ -55,11 +55,15 @@ li{
         text-decoration-style: wavy;
     }
     #icons{
+        margin-top:200px;
+        margin-left:500px;
+        width:200px;
         padding:50px;
         display:flex;
 
     }
     #icons a>img{
+        margin-top:-90px;
      border:1px solid grey;
     }
     #info{
@@ -69,23 +73,59 @@ li{
         margin-left:580px;  
     }
     #name{
+        border-radius: 10px;
        border: 2px solid grey;
        width: 200px;
     }
     #email{
+        border-radius: 10px;
         border: 2px solid grey;
         width: 200px;     
     }
     #message{
+        border-radius: 10px;
         border: 2px solid grey;
         width: 200px;    
         height:200px;
+        padding:10px;
     }
     #brito{
+        border-radius: 10px;
         float:left;
+    }
+    #lap img{
+        margin-top:100px;
     }
     #lap{
         display:flex;
         justify-content: space-around;
-        margin-top:100px;
+    }
+    #send{
+        border:2px solid grey;
+        width:40px;
+        height:40px;
+        padding-left:3px;
+        border-radius: 10px;
+        margin-top:20px;
+    }
+    #sleepy p{
+        text-align:center;
+        margin-top:20px;
+    }
+    #ii{
+        font-size:20px;
+        font-family: 'Old Standard TT', serif;
+    }
+    #screen{
+        float:left;
+        display:flex;
+    }
+    #project{
+        background-color:black;
+    }
+    body{
+        background-color:black;   
+    }
+    #another{
+        float:right;
     }

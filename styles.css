@@ -101,9 +101,6 @@ li{
         justify-content: space-around;
     }
     #send{
-        border:2px solid grey;
-        width:40px;
-        height:40px;
         padding-left:3px;
         border-radius: 10px;
         margin-top:20px;
@@ -127,9 +124,19 @@ li{
         background-color:black;   
     }
     #another{
-        float:right;
         font-size: 30px;
         margin-top:300px;
         margin-right:140px;
     }
-    
+    a:link{
+        color:greenyellow;
+    }
+    #project{
+        padding-top: 30px;
+    }
+#another{
+    text-align: center;
+}
+#another a:hover{
+    color:green;
+}
